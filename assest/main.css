@@ -108,13 +108,57 @@ ul {
     gap: 30px;
     padding: 80px 0;
 }
-.collection{
+
+.collection {
     text-align: center;
     width: calc((100% - 90px) / 4);
+    color: #3A3845;
 }
-.collection img{
+
+.collection img {
     width: 100%;
     margin-bottom: 23px;
+}
+
+.off {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+
+.leftSide {
+    width: 50%;
+    padding: 64px 60px;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F7F6F5;
+    text-align: center;
+    color: #3A3845;
+}
+
+.leftSide p {
+    margin: 24px 0 32px 0;
+}
+
+.rightSide {
+    width: 50%;
+}
+
+.rightSide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.leftSide a {
+    text-decoration-line: underline;
+    color: #3A3845;
+    font: bold;
 }
 
 @media screen and (min-width: 320px) and (max-width: 999px) {
@@ -137,13 +181,36 @@ ul {
 }
 
 @media screen and (min-width: 600px) and (max-width: 999px) {
-    .collection{
+    .collection {
         width: calc((100% - 30px) / 2);
+    }
+
+    .leftSide {
+        width: 100%;
+        padding: 50px 20px;
+    }
+
+    .rightSide {
+        width: 100%;
     }
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px) {
-    .collection{
+
+    .collections {
+        padding: 30px;
+    }
+
+    .collection {
+        width: 100%;
+    }
+
+    .leftSide {
+        width: 100%;
+        padding: 50px 20px;
+    }
+
+    .rightSide {
         width: 100%;
     }
 }
@@ -176,25 +243,27 @@ ul {
     }
 }
 
-@media screen and (min-width: 431px) and (max-width: 730px){
-        .brownSpace {
-            display: none;
-        }
-        .sliderPhoto {
-            display: none;
-        }
-        .brownSpace2 {
-            display: block;
-            width: 100%;
-            background-color: #826F66;
-            background-image: none;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: center;
-            margin: auto;
-            flex-direction: column;
-            gap: 30px;
-            padding: 74.21px 78.5px;
-        }
+@media screen and (min-width: 431px) and (max-width: 730px) {
+    .brownSpace {
+        display: none;
     }
+
+    .sliderPhoto {
+        display: none;
+    }
+
+    .brownSpace2 {
+        display: block;
+        width: 100%;
+        background-color: #826F66;
+        background-image: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        flex-direction: column;
+        gap: 30px;
+        padding: 74.21px 78.5px;
+    }
+}
