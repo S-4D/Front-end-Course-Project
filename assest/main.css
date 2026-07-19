@@ -183,22 +183,23 @@ ul {
     width: calc((100% - 90px) / 4);
     color: #3A3845;
 }
-.item h4{
+
+.item h4 {
     width: 100%;
     padding: 24px 0;
 }
 
-.item p{
+.item p {
     width: 100%;
     padding-bottom: 58px;
     color: #6D758F;
 }
 
-.item img{
+.item img {
     width: 100%;
 }
 
-.item .add{
+.item .add {
     width: 100%;
     padding: 15px 0;
     border-color: #19213D;
@@ -249,8 +250,8 @@ ul {
         padding: 40px 0;
     }
 
-    .item{
-        width: calc((100% - 30px) / 2);
+    .item {
+        width: calc((100% - 20px) / 2);
     }
 }
 
@@ -277,7 +278,7 @@ ul {
         padding: 40px 0;
     }
 
-    .item{
+    .item {
         width: 100%;
     }
 }
